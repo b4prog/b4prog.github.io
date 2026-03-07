@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="hero" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#10263a" />
+      <stop offset="55%" stop-color="#17324d" />
+      <stop offset="100%" stop-color="#234b5a" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8eb" />
+      <stop offset="100%" stop-color="#f0e3d1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#ebe2d5" />
+  <rect x="32" y="32" width="1136" height="566" rx="36" fill="url(#hero)" />
+  <circle cx="110" cy="104" r="10" fill="#ffcfab" />
+  <circle cx="146" cy="104" r="10" fill="#ffcfab" fill-opacity=".7" />
+  <circle cx="182" cy="104" r="10" fill="#ffcfab" fill-opacity=".45" />
+  <text
+    x="72"
+    y="194"
+    fill="#f4f7fb"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="64"
+    font-weight="700"
+  >
+    GraphQL HAR Analyzer
+  </text>
+  <text
+    x="72"
+    y="258"
+    fill="#d9e7f2"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="30"
+  >
+    Inspect HAR files, correlate GraphQL operations, and debug API traffic
+  </text>
+  <text
+    x="72"
+    y="300"
+    fill="#d9e7f2"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="30"
+  >
+    locally without uploading captured requests or schemas.
+  </text>
+  <rect x="72" y="354" width="1056" height="188" rx="26" fill="url(#panel)" />
+  <rect
+    x="108"
+    y="392"
+    width="280"
+    height="112"
+    rx="18"
+    fill="#fffdf8"
+    stroke="#e0cfb4"
+  />
+  <rect
+    x="426"
+    y="392"
+    width="308"
+    height="112"
+    rx="18"
+    fill="#fffdf8"
+    stroke="#e0cfb4"
+  />
+  <rect
+    x="772"
+    y="392"
+    width="320"
+    height="112"
+    rx="18"
+    fill="#fffdf8"
+    stroke="#e0cfb4"
+  />
+  <text
+    x="136"
+    y="435"
+    fill="#10263a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="24"
+    font-weight="700"
+  >
+    Local analysis
+  </text>
+  <text
+    x="136"
+    y="470"
+    fill="#425e6a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="20"
+  >
+    Files stay in-browser
+  </text>
+  <text
+    x="454"
+    y="435"
+    fill="#10263a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="24"
+    font-weight="700"
+  >
+    Schema correlation
+  </text>
+  <text
+    x="454"
+    y="470"
+    fill="#425e6a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="20"
+  >
+    Match operations to fields
+  </text>
+  <text
+    x="800"
+    y="435"
+    fill="#10263a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="24"
+    font-weight="700"
+  >
+    Request debugging
+  </text>
+  <text
+    x="800"
+    y="470"
+    fill="#425e6a"
+    font-family="'IBM Plex Sans', 'Segoe UI', sans-serif"
+    font-size="20"
+  >
+    Filter errors and traffic
+  </text>
+</svg>

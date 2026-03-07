@@ -2,12 +2,68 @@
 <html lang="en" data-beasties-container>
   <head>
     <meta charset="utf-8">
-    <title>GraphQL HAR Analyzer</title>
+    <title>GraphQL HAR Analyzer for HAR Inspection and API Debugging</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inspect HAR files, correlate GraphQL operations with your schema, and debug API traffic locally in the browser without uploading sensitive data.">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta name="theme-color" content="#10263a">
+    <link rel="canonical" href="https://b4prog.github.io/">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="GraphQL HAR Analyzer for HAR Inspection and API Debugging">
+    <meta property="og:description" content="Inspect HAR files, correlate GraphQL operations with your schema, and debug API traffic locally in the browser without uploading sensitive data.">
+    <meta property="og:url" content="https://b4prog.github.io/">
+    <meta property="og:site_name" content="GraphQL HAR Analyzer">
+    <meta property="og:image" content="https://b4prog.github.io/social-preview.svg">
+    <meta property="og:image:alt" content="GraphQL HAR Analyzer preview">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GraphQL HAR Analyzer for HAR Inspection and API Debugging">
+    <meta name="twitter:description" content="Inspect HAR files, correlate GraphQL operations with your schema, and debug API traffic locally in the browser without uploading sensitive data.">
+    <meta name="twitter:image" content="https://b4prog.github.io/social-preview.svg">
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebApplication","name":"GraphQL HAR Analyzer","headline":"Analyze GraphQL requests in HAR files without leaving the browser","description":"Inspect HAR files, correlate GraphQL operations with your schema, and debug API traffic locally in the browser without uploading sensitive data.","url":"https://b4prog.github.io/","applicationCategory":"DeveloperApplication","applicationSubCategory":"GraphQL HAR inspection and API debugging","browserRequirements":"Requires a modern browser with JavaScript enabled","operatingSystem":"Any","inLanguage":"en","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"image":"https://b4prog.github.io/social-preview.svg","featureList":["Load a HAR export and isolate GraphQL requests from the rest of the network log.","Map captured requests back to a GraphQL schema to understand operation coverage.","Filter, sort, and inspect requests by operation type, operation name, status, and error state.","Compare raw request details with schema context to debug API behavior faster."]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is GraphQL HAR Analyzer used for?","acceptedAnswer":{"@type":"Answer","text":"It helps engineers inspect HAR captures, extract GraphQL requests, correlate them with a schema, and troubleshoot API traffic from real browser sessions."}},{"@type":"Question","name":"Can I analyze GraphQL HAR files without uploading them?","acceptedAnswer":{"@type":"Answer","text":"Yes. The application runs entirely in the browser, so HAR files and schema files stay local to your session."}},{"@type":"Question","name":"Who is this GraphQL debugging tool for?","acceptedAnswer":{"@type":"Answer","text":"It is useful for frontend engineers, platform teams, QA analysts, support engineers, and anyone investigating GraphQL requests captured in HAR exports."}},{"@type":"Question","name":"Do I need a backend or account to use the analyzer?","acceptedAnswer":{"@type":"Answer","text":"No. The site is a static GitHub Pages deployment and the analysis happens in the browser without a login or backend service."}}]}
+    </script>
   <style>:root{color-scheme:light;font-family:IBM Plex Sans,Segoe UI,sans-serif;line-height:1.5;--page-text:#1d2c35}*{box-sizing:border-box}html,body{margin:0;min-height:100%}body{background:radial-gradient(circle at top,rgba(230,118,61,.16),transparent 28%),linear-gradient(180deg,#f5f0e8,#ebe2d5);color:var(--page-text);font-family:inherit}</style><link rel="stylesheet" href="styles-OFWGNPFH.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-OFWGNPFH.css"></noscript></head>
   <body>
-    <app-root></app-root>
-  <script src="main-NWS5ONZS.js" type="module"></script></body>
+    <app-root> <main class="seo-fallback" aria-label="GraphQL HAR Analyzer overview">
+        <style>
+          .seo-fallback{color:#16303d;font-family:IBM Plex Sans,Segoe UI,sans-serif;line-height:1.6;margin:0 auto;max-width:72rem;padding:2rem 1rem 3rem}
+          .seo-fallback__hero,.seo-fallback__section{background:rgba(255,248,235,.92);border:1px solid #e0cfb4;border-radius:1.25rem;margin-bottom:1rem;padding:1.25rem}
+          .seo-fallback__hero{background:linear-gradient(135deg,#10263a,#17324d 60%,#234b5a);border-color:rgba(255,255,255,.12);color:#f4f7fb}
+          .seo-fallback__hero p{color:#d9e7f2;max-width:58rem}
+          .seo-fallback h1,.seo-fallback h2,.seo-fallback h3{margin:0 0 .65rem}
+          .seo-fallback p,.seo-fallback li{margin:0 0 .75rem}
+          .seo-fallback ul,.seo-fallback ol{margin:0;padding-left:1.25rem}
+          .seo-fallback article+article{margin-top:1rem}
+        </style>
+        <section class="seo-fallback__hero">
+          <h1>Analyze GraphQL requests in HAR files without leaving the browser</h1>
+          <p>GraphQL HAR Analyzer is a browser-based tool for frontend engineers, API developers, QA analysts, and support teams who need to inspect captured GraphQL traffic quickly.</p>
+          <p>Use it to review production captures, validate schema coverage, investigate failing operations, and understand how GraphQL requests behave across real user sessions.</p>
+          <p>Everything runs locally in your browser session. HAR files, GraphQL schemas, request headers, and response payloads stay on the page and are never uploaded by the app.</p>
+        </section>
+        <section class="seo-fallback__section">
+          <h2>Key capabilities</h2>
+          <ul><li>Load a HAR export and isolate GraphQL requests from the rest of the network log.</li><li>Map captured requests back to a GraphQL schema to understand operation coverage.</li><li>Filter, sort, and inspect requests by operation type, operation name, status, and error state.</li><li>Compare raw request details with schema context to debug API behavior faster.</li></ul>
+        </section>
+        <section class="seo-fallback__section">
+          <h2>How to use it</h2>
+          <ol><li>Load a GraphQL schema file when you want operation names and fields correlated against the captured traffic.</li><li>Load a HAR file exported from your browser or monitoring workflow.</li><li>Review the request list, inspect matching operations, and use filters to narrow down failing or unexpected traffic.</li></ol>
+        </section>
+        <section class="seo-fallback__section">
+          <h2>Frequently asked questions</h2>
+          <article><h3>What is GraphQL HAR Analyzer used for?</h3><p>It helps engineers inspect HAR captures, extract GraphQL requests, correlate them with a schema, and troubleshoot API traffic from real browser sessions.</p></article><article><h3>Can I analyze GraphQL HAR files without uploading them?</h3><p>Yes. The application runs entirely in the browser, so HAR files and schema files stay local to your session.</p></article><article><h3>Who is this GraphQL debugging tool for?</h3><p>It is useful for frontend engineers, platform teams, QA analysts, support engineers, and anyone investigating GraphQL requests captured in HAR exports.</p></article><article><h3>Do I need a backend or account to use the analyzer?</h3><p>No. The site is a static GitHub Pages deployment and the analysis happens in the browser without a login or backend service.</p></article>
+        </section>
+      </main> </app-root>
+  <script src="main-LR427B2X.js" type="module"></script></body>
 </html>
+
